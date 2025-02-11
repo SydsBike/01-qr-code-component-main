@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 /* Custom Properties */
 
@@ -21,6 +21,16 @@
   --slate-300: hsl(212, 45%, 89%);
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
+
+  /* Spacing */
+  --space-xs: 0.5rem; /* 8px */
+  --space-sm: 1rem; /* 16px */
+  --space-md: 1.5rem; /* 24px */
+  --space-lg: 2.5rem; /* 40px */
+
+  /* Border Radius */
+  --radius-sm: 0.625rem; /* 10px */
+  --radius-md: 1.25rem; /* 20px */
 }
 
 /* CSS Reset */
@@ -137,27 +147,27 @@ body {
 
 .card {
   background-color: var(--white);
-  border-radius: 1.25rem;
+  border-radius: var(--radius-md);
   max-width: 320px;
-  margin: 1rem;
+  margin: var(--space-sm);
 }
 
 .card-wrapper {
   display: grid;
-  gap: 1.5rem;
-  margin: 1rem;
+  gap: var(--space-md);
+  margin: var(--space-sm);
 }
 
 .image-container {
   max-width: 288px;
   max-height: 288px;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   overflow: hidden;
 }
 
 .primary-text {
   display: grid;
-  gap: 1rem;
-  margin-bottom: 2.5rem;
-  padding-inline: 1rem;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+  padding-inline: var(--space-sm);
 }
