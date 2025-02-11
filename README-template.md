@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/SydsBike/01-qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://sydsbike.github.io/01-qr-code-component-main/)
+- Solution URL: [Repository](https://github.com/SydsBike/01-qr-code-component-main)
+- Live Site URL: [Live Site](https://sydsbike.github.io/01-qr-code-component-main/)
 
 ### Built with
 
